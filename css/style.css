@@ -1,0 +1,307 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=Alex+Brush|Great+Vibes|PT+Sans+Narrow:400,700");
+
+@font-face {
+  font-family: "Edward";
+  src: url(../font/edwardian_script_itc.ttf) format("truetype"),
+    url(../font/edwardian_script_itc.otf) format("opentype");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background: #ffffff;
+  color: #a5a5a5;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "PT Sans Narrow", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  line-height: 1.2;
+  color: #232323;
+}
+
+.subtitle {
+  font-family: "Edward", sans-serif;
+  /* line-height: 0.75; */
+}
+
+.fa-heart {
+  color: red;
+}
+
+/* ========== Navbar ========== */
+.navbar {
+  background-color: #2f2f2f;
+}
+
+a.navbar-brand,
+.navbar-nav li a,
+.fa-bars {
+  color: #e4a550;
+}
+
+.hlt {
+  font-size: 36px;
+  line-height: 0.75;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+  }
+
+.hld {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.68em;
+  line-height: 0.75;
+  margin-top: 12px;
+}
+
+li.nav-item {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.navbar-nav li {
+  padding-right: 40px;
+}
+
+.reservation {
+  border: solid 1px #ffffff;
+}
+
+/* =========== Banner ========== */
+
+.banner {
+  height: 100vh;
+  min-height: 500px;
+  background-image: linear-gradient(rgba(2, 2, 2, 0.73), rgba(9, 9, 10, 0.73)),
+    url(/img/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner-text h1 {
+  color: aqua;
+  font-size: 5rem;
+  padding-top: 4rem;
+}
+
+.banner-text h3 {
+  color: aqua;
+  font-size: 1.8rem;
+  letter-spacing: 5px;
+  padding: 12px;
+}
+
+.banner-text p {
+  color: aqua;
+  font-size: 1.5rem;
+}
+
+.btn-primary {
+  background-color: #e4a550;
+  border-color: #e4a550;
+  padding: 1.6rem 1.8rem;
+  font-size: 1.6rem;
+  margin-top: 1.4rem;
+}
+
+/* ========== Food Menu ============ */
+.card {
+  border: none;
+}
+
+.menu {
+  /* background: #232323; */
+  color: #696360;
+}
+
+.menu-header {
+  padding: 2em;
+}
+
+.menu-header h1 {
+  color: #69625f;
+  font-size: 4rem;
+  border: solid 2px #8c7c74;
+}
+
+.submenu h3 {
+  text-align: center;
+  font-size: 35px;
+  color: #696360;
+  /* border: 1px solid rgba(0,0,0,.125); */
+}
+
+.fdlst {
+  padding-bottom: 20px;
+}
+
+.fdtl {
+  text-transform: uppercase;
+  font-size: 22px;
+  border-bottom: 1px solid #b6a46c;
+}
+
+/* .fdpr{
+    font-size: 20px;
+} */
+.fdds,
+.fdtl span {
+  font-size: 18px;
+}
+
+.fdtl span {
+  text-transform: initial;
+  float: right;
+}
+
+.fa-pepper-hot {
+  color: red;
+  font-size: 20px;
+}
+
+/* ========== Contact ========== */
+.contact {
+  padding: 5rem;
+  background: #227093;
+}
+
+.contact a,
+.contact i {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.contact a {
+  text-decoration: none;
+  margin-left: 0.5rem;
+}
+
+/* ========== Footer ========== */
+footer {
+  padding: 4rem 0 0 3rem;
+  background: #232323;
+  text-align: left;
+}
+
+footer a {
+  color: #a5a5a5;
+}
+
+footer p {
+  font-size: 20px;
+  line-height: 0.75;
+}
+
+footer h2,
+.flt,
+.fld {
+  color: #e4a550;
+}
+
+footer h2 {
+  font-size: 40px;
+}
+
+.fl,
+.location,
+.social {
+  margin-bottom: 2rem;
+}
+
+.flt {
+  font-size: 45px;
+  line-height: 1.5rem;
+}
+
+.fld {
+  font-size: 19px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  line-height: 1.75rem;
+  margin-top: 17px;
+  margin-bottom: 20px;
+}
+
+.fl p {
+  font-size: 16px;
+  line-height: 0.2;
+}
+
+.location i {
+  padding-right: 0.3rem;
+  font-size: 1.5rem;
+}
+
+.social i {
+  font-size: 2.9rem;
+  padding: 0.2rem;
+}
+
+/* =========== Responsive queries =========== */
+@media (min-width: 992px) {
+  .banner-text h1 {
+    font-size: 7rem;
+  }
+  .banner-text h3 {
+    font-size: 4rem;
+    letter-spacing: 1rem;
+  }
+  .banner-text p {
+    font-size: 2rem;
+  }
+
+  .btn-primary {
+    padding: 2rem 3rem;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+  }
+
+  .contact a,
+  .contact i {
+    font-size: 1.5rem;
+  }
+
+  .menu-header h1 {
+    font-size: 6rem;
+  }
+}
