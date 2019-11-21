@@ -143,6 +143,10 @@ li.nav-item {
   margin-top: 1.4rem;
 }
 
+.btn:hover {
+  background-color: inherit;
+}
+
 /* ========== Food Menu ============ */
 .card {
   border: none;
